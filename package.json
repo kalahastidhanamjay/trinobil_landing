@@ -1,0 +1,30 @@
+{
+  "name": "trinobil-landing",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^1.55.0",
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "@vitejs/plugin-react": "4",
+    "tailwindcss": "4",
+    "typescript": "5",
+    "vite": "5"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20"
+  }
+}
